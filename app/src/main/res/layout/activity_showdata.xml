@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:padding="10dp"
     tools:context=".showdata">
 
@@ -15,4 +16,8 @@
         android:padding="3dp"
         tools:layout_editor_absoluteX="-14dp"
         tools:layout_editor_absoluteY="1dp" />
+=======
+    tools:context=".showdata">
+
+>>>>>>> origin/main
 </androidx.constraintlayout.widget.ConstraintLayout>

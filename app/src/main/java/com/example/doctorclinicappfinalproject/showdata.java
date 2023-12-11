@@ -1,4 +1,5 @@
 package com.example.doctorclinicappfinalproject;
+<<<<<<< HEAD
 // Aya Soghayyer 22110886
 // Aseel Al ashqar 22110533
 //import androidx.appcompat.app.AppCompatActivity;
@@ -61,10 +62,20 @@ public class showdata extends AppCompatActivity {
     DBHelper helper ;
 
 
+=======
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class showdata extends AppCompatActivity {
+
+>>>>>>> origin/main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_showdata);
+<<<<<<< HEAD
 
 
         //helper
@@ -105,3 +116,7 @@ public class showdata extends AppCompatActivity {
 
     }
 }
+=======
+    }
+}
+>>>>>>> origin/main
