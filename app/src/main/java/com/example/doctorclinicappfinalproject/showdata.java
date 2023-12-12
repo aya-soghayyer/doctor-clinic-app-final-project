@@ -1,12 +1,12 @@
 package com.example.doctorclinicappfinalproject;
-<<<<<<< HEAD
+
 // Aya Soghayyer 22110886
 // Aseel Al ashqar 22110533
 //import androidx.appcompat.app.AppCompatActivity;
 //
 //import android.os.Bundle;
 //import android.view.View;
-//import android.widget.AdapterView;
+
 //import android.widget.ArrayAdapter;
 //import android.widget.GridView;
 //import android.widget.Toast;
@@ -37,7 +37,7 @@ package com.example.doctorclinicappfinalproject;
 //    @Override
 //    protected void onPause() {
 //        super.onPause();
-//        Toast.makeText(this, "Good Bye Doctor ! :) ", Toast.LENGTH_SHORT).show();
+
 //
 //    }
 //
@@ -45,11 +45,10 @@ package com.example.doctorclinicappfinalproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-import android.annotation.SuppressLint;
-import android.content.Intent;
+
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
-import android.widget.GridView;
+
 import android.widget.ListView;
 
 
@@ -62,20 +61,14 @@ public class showdata extends AppCompatActivity {
     DBHelper helper ;
 
 
-=======
 
-import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
 
-public class showdata extends AppCompatActivity {
-
->>>>>>> origin/main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_showdata);
-<<<<<<< HEAD
+
 
 
         //helper
@@ -94,7 +87,6 @@ public class showdata extends AppCompatActivity {
 
 
 
-        //Adapter
         ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,database);
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_list_item_1);
 
@@ -116,7 +108,3 @@ public class showdata extends AppCompatActivity {
 
     }
 }
-=======
-    }
-}
->>>>>>> origin/main
