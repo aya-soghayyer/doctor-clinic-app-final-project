@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Colored rectangle-->
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:top="35dp"/>
+            <size android:width="200dp" android:height="40dp" />
+            <gradient
+                android:angle="90"
+                android:endColor="#7641B8"
+                android:startColor="#1C8FBD"
+                android:type="linear" />
+
+        </shape>
+    </item>
+
+
+    <!-- This rectangle for the right side -->
+    <!-- Their color should be the same as layout's background -->
+    <item
+        android:bottom="-700dp"
+        android:left="200dp"
+        android:right="-200dp"
+        android:top="-500dp">
+
+        <rotate android:fromDegrees="45">
+            <shape android:shape="rectangle">
+                <padding android:top="-35dp"/>
+                <solid android:color="#ffffff" />
+
+            </shape>
+        </rotate>
+    </item>
+    <!-- This rectangle for the left side -->
+    <item
+        android:bottom="-400dp"
+        android:left="200dp"
+        android:right="200dp"
+        android:top="-80dp">
+
+        <rotate android:fromDegrees="-45">
+            <shape android:shape="rectangle">
+                <padding android:top="-35dp"/>
+                <solid android:color="#ffffff" />
+
+            </shape>
+        </rotate>
+    </item>
+
+    </layer-list>
